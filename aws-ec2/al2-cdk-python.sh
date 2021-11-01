@@ -1,5 +1,5 @@
 #!/bin/bash
-update -y
+yum update -y
 install git -y
 
 # https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
