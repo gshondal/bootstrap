@@ -1,6 +1,6 @@
 #!/bin/bash
 yum update -y
-install git -y
+yum install git -y
 
 # https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 su ec2-user -c '
