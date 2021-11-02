@@ -1,7 +1,3 @@
-#!/bin/bash
-yum update -y
-yum install git -y
-
 # https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 su ec2-user -c '
 cd; git clone https://github.com/nvm-sh/nvm; nvm/install.sh; 
